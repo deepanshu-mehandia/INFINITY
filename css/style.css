@@ -202,8 +202,8 @@ nav{
 	filter: drop-shadow(20px 10px 4px #ce9de3);
 }
 .imgs6:hover{
-	-webkit-transform: scale(1.1);
-          transform: scale(1.1);
+	-webkit-transform: scale(0.9);
+          transform: scale(0.9);
 }
 .imgs7{
 	margin: 40px 0;
