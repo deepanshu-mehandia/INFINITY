@@ -48,6 +48,26 @@ nav{
 	-webkit-transform: scale(1.2);
           transform: scale(1.2);
 }
+nav {
+	position: absolute;
+	z-index: 10;
+}
+.nav1 ul ul{
+	position: absolute;
+	top: 70px;
+	left: 200px;
+	display: none;
+/*	margin: 0;*/
+}
+.nav1 ul ul li{
+	background-color: white;
+	display: inline-block;
+	cursor: pointer;
+}
+.nav1 ul li:hover>ul{
+    display: block;
+}
+
 .slider{
 	height: 500px;
 	cursor: pointer;
@@ -214,6 +234,17 @@ nav{
 .imgs7:hover{
 	-webkit-transform: scale(1.05);
           transform: scale(1.05);
+}
+.coming{
+	width: 100vw;
+	height: 70vh;
+	font-weight: bold;
+	font-size: 50px;
+	color: red;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	filter: drop-shadow(10px 10px 4px #ce9de3);
 }
 
 .footer .box-container {
